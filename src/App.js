@@ -18,7 +18,7 @@ import FeesPayment from './components/FeesPayment';
 function App() {
   return (
     <div className="App">
-      <HashRouter>
+      <BrowsRouter>
         <Routes>
           <Route path="/" element={<Home />}> </Route>
           <Route path="/signup" element={<SignUp />}> </Route>
@@ -29,7 +29,7 @@ function App() {
           <Route path="/feespayment" element={<FeesPayment />}> </Route>
         </Routes>
        <ToastContainer />
-      </HashRouter>
+      </BrowserRouter>
     </div>
   );
 }
