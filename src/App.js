@@ -18,7 +18,7 @@ import FeesPayment from './components/FeesPayment';
 function App() {
   return (
     <div className="App">
-      <BrowsRouter>
+      <BrowserRouter>
         <Routes>
           <Route path="/" element={<Home />}> </Route>
           <Route path="/signup" element={<SignUp />}> </Route>
